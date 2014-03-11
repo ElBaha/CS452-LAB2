@@ -1,3 +1,10 @@
+/*
+ * Adam Kimball
+ * Computer Graphics
+ * Lab 2
+ *
+ */
+
 #include <stdio.h>
 #include <iostream>
 #include <stdlib.h>
@@ -11,7 +18,7 @@
 
 using namespace std;
 
-//compiler flags: -lglfw -lGLEW -std=c++11
+//compiler flags: -lGL -lm -lglfw -lGLEW -std=c++11
 
 char* initShaderString(char* filename){
 	FILE *fp;
